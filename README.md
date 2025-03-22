@@ -17,50 +17,23 @@ Past in ```<head>``` tag
 Past in ```<body>``` tag
 ## Documentation
 
-Components:
-
-1. Contact Form
-2. Code Box
-3. Notes
-4. Button 
-5. Mark
-6. Underline
-7. Heading
-8. Alert Messages 
-
-
-## Theme
-
-MACUI v3.0 launch with Three best theme:
-
-1. Aesthetic 
-2. Pastel
-3. Nord
-
 ## Links
 
 MACUI Website:
 
 [Visit](https://themacui.blogspot.com/)
+
 ## Roadmap
 
 MACUI v3.0 
  
 Latest batch: 21 February 2025
 
-
-
 ## Support
 
 For support or contact
 
 email devloperdhaval@gmail.com or join our Slack channel.
-
-
-## License
-
-[MIT](https://github.com/developerdhaval/MACUI/blob/main/LICENSE)
-
 
 ## Authors
 
