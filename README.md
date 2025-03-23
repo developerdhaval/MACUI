@@ -15,7 +15,6 @@ Past in ```<head>``` tag
   <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
 ```
 Past in ```<body>``` tag
-## Documentation
 
 ## Links
 
@@ -28,6 +27,10 @@ MACUI Website:
 MACUI v3.0 
  
 Latest batch: 21 February 2025
+
+## License
+
+[MIT LICENSE](https://github.com/developerdhaval/MACUI/blob/main/LICENSE)
 
 ## Support
 
