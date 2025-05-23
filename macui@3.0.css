@@ -61,27 +61,43 @@
   --border-radius: 5px;
   --btn-1: #c1ffa4;
 }
+
+.white {
+  background-color: white;
+}
+.black {
+  background-color: black;
+}
 .c1 {
   background-color: #cafad7;
 }
+
 .c2 {
   background-color: #d6cefb;
 }
+
 .c3 {
-  background-color: #e8f0fe;
+  background-color: #e1ebfe;
 }
+
 .c4 {
   background-color: #f6f8c9;
+}
+.c5 {
+  background-color: #ffd5d9;
 }
 .btn1 {
   background-color: #2fd76c;
 }
+
 .btn2 {
   background-color: #a593ff;
 }
+
 .btn3 {
   background-color: #bfd6fd;
 }
+
 .btn4 {
   background-color: #f1f790;
 }
@@ -101,6 +117,17 @@
   border-radius: var(--border-radius);
   gap: 10px;
   margin-bottom: 20px;
+
+  heading {
+  padding: 20px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  margin-top: -18px;
+  margin-left: -18px;
+  margin-right: -18px;
+  margin-bottom: 20px;
+  display: flex;
+  }
 }
 
 .macnotes-border:hover {
@@ -109,9 +136,6 @@
 
 .macborder {
   border: 2px solid black;
-  border-radius: var(--border-radius);
-  padding: 18px;
-  margin-bottom: 20px;
 }
 
 .macshadow {
@@ -149,19 +173,43 @@
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
-  margin: 3px;
   transition: all 0.3s ease-in-out;
   border: none;
   border-radius: var(--border-radius);
+  width: fit-content;
+  display: flex;
+  margin-bottom: 10px;
 }
 
 .macbtn:hover {
-  transform: translateY(-1px) translateX(-1px);
+  transform: translateY(-2px) translateX(-2px);
 }
+
+.macbtn2 {
+  background-color: transparent;
+  margin: 3px;
+  color: black;
+  border-radius: 10em;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid black;
+  box-shadow: 0 0 0 0 black;
+  display: flex;
+  width: fit-content;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.macbtn2:hover {
+background-color: black;
+color: white;
+}
+
 
 .ul {
   display: inline-block;
-  color: var(--color-black);
+  color: black;
   text-decoration: n1;
 }
 
@@ -170,7 +218,7 @@
   display: block;
   width: 0;
   height: 1px;
-  background: var(--color-black);
+  background: black;
   transition: width .3s;
 }
 
@@ -184,4 +232,29 @@
   font-weight: bold;
   border-radius: var(--border-radius);
   margin-bottom: 20px;
+}
+
+.macnav {
+    background-color: #000000;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+}
+.macnav .logo {
+    font-weight: 600;
+    font-size: xx-large;
+}
+.navbtn {
+  border: 2px solid white;
+  border-radius: var(--border-radius);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.navbtn:hover {
+  background-color: white;
+  color: black;
 }
